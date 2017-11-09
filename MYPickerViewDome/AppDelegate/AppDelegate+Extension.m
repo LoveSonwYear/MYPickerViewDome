@@ -14,7 +14,7 @@
 - (void)my_buildAppDeleagteState {
     // 设置window启动
     self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds ];
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor blackColor];
     ViewController *testVC = [[ViewController alloc] init];
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:testVC];
     self.window.rootViewController = nvc;

@@ -17,6 +17,7 @@
 		41431CC91FB0088400149D97 /* MYPickerViewDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41431CC81FB0088400149D97 /* MYPickerViewDomeUITests.m */; };
 		415F90021FB00F1100A51499 /* AppDelegate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 415F90011FB00F1100A51499 /* AppDelegate+Extension.m */; };
 		415F90071FB039E200A51499 /* MYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 415F90061FB039E200A51499 /* MYBaseView.m */; };
+		415F900A1FB05F0D00A51499 /* MYDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 415F90091FB05F0D00A51499 /* MYDatePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		415F90011FB00F1100A51499 /* AppDelegate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Extension.m"; sourceTree = "<group>"; };
 		415F90051FB039E200A51499 /* MYBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYBaseView.h; sourceTree = "<group>"; };
 		415F90061FB039E200A51499 /* MYBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYBaseView.m; sourceTree = "<group>"; };
+		415F90081FB05F0D00A51499 /* MYDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYDatePickerView.h; sourceTree = "<group>"; };
+		415F90091FB05F0D00A51499 /* MYDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYDatePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 			children = (
 				415F90051FB039E200A51499 /* MYBaseView.h */,
 				415F90061FB039E200A51499 /* MYBaseView.m */,
+				415F90081FB05F0D00A51499 /* MYDatePickerView.h */,
+				415F90091FB05F0D00A51499 /* MYDatePickerView.m */,
 			);
 			path = MYPickerView;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 				41431CA91FB0088300149D97 /* ViewController.m in Sources */,
 				41431CB41FB0088300149D97 /* main.m in Sources */,
 				415F90021FB00F1100A51499 /* AppDelegate+Extension.m in Sources */,
+				415F900A1FB05F0D00A51499 /* MYDatePickerView.m in Sources */,
 				41431CA61FB0088300149D97 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M62YKM665V;
 				INFOPLIST_FILE = MYPickerViewDome/AppDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.meiyang.MYPickerViewDome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M62YKM665V;
 				INFOPLIST_FILE = MYPickerViewDome/AppDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.meiyang.MYPickerViewDome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
